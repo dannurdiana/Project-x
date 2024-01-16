@@ -1,0 +1,749 @@
+body,
+html {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    /*overflow-x: hidden;*/
+    scroll-behavior: smooth;
+}
+
+
+/*body {
+  overflow-y: hidden;
+}*/
+
+body.visibleSplash {
+    overflow-y: auto !important;
+    scroll-behavior: smooth;
+}
+
+.App {
+    text-align: center;
+}
+
+.jencke-bg-landing {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.jencke-basketball {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 2;
+}
+
+.jencke-skate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.jencke-shorts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    z-index: 2;
+}
+
+.jencke-foot {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+}
+
+.jencke-basketball img,
+.jencke-skate img,
+.jencke-shorts img {
+    width: 100%;
+    max-width: 235px;
+}
+
+.jencke-foot img {
+    max-width: 400px;
+}
+
+.jencke-wrpr-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px 0 0 70px;
+}
+
+.jencke-wrpr-welcome img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.jencke-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jencke-header ul {
+    display: flex;
+    margin: 30px 0px 0px;
+}
+
+.jencke-header li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.jencke-header a {
+    font-family: 'kumbhmedium';
+    font-size: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.jencke-header ul>li>a:hover {
+    color: #f7db39;
+}
+
+
+/*about*/
+
+.jencke-bg {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.jencke-bg .jencke-wrpr-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.lempeng-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content-wrapper {
+    margin-top: 200px;
+    padding: 0 100px;
+    position: relative;
+}
+
+.fire-ptrn {
+    position: absolute;
+    top: -20px;
+    left: 285px;
+}
+
+.content-wrapper h2 {
+    color: #000000;
+    font-family: 'mangoextrabold';
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.content-wrapper p {
+    color: #000000;
+    font-family: 'kumbhreg';
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.lempeng-wrapper-img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.lempeng-wrapper-img img {
+    width: 100%;
+}
+
+.jnckehandzmbi-ptrn {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.jnckehand-ptrn {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.bold-text {
+    font-family: 'kumbhextrabold';
+}
+
+.wrpr-theteam {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.wrpr-theteam .col-md-4 {
+    width: 33%;
+}
+
+.wrpr-theteam-text {
+    margin: 20px 0;
+}
+
+.wrpr-theteam p {
+    font-family: 'kumbhbold';
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #fee13b;
+}
+
+.wrpr-theteam span {
+    font-family: 'kumbhreg';
+    font-size: 14px;
+    color: #fee13b;
+}
+
+.cntr-footer {
+    background: #1c1d1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px;
+}
+
+.wrpr-footer-img {
+    margin: 0 10px;
+}
+
+.theteam-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.team-wrapper {
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.team-wrapper h2 {
+    font-family: 'kumbhextrabold';
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #fee13b;
+}
+
+.row-two {
+    margin-top: -35px;
+}
+
+.roadmap-wrapper {
+    width: 97%;
+    height: 100vh!important;
+    position: relative;
+    display: inline-flex;
+}
+
+.shape-ptrn {
+    position: absolute;
+    top: 120px;
+}
+
+.shape-ptrn img {
+    width: 97%;
+}
+
+.roadmap-inner.back {
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0 30px;
+    background: linear-gradient(54deg, rgb(229 227 223) 50%, rgb(247 245 243) 60%, rgb(246 244 241) 85%);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.roadmap-inner.front {
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0 30px;
+    background: linear-gradient(54deg, rgb(229 227 223) 50%, rgb(247 245 243) 60%, rgb(246 244 241) 85%);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.roadmap-inner h2 {
+    font-family: 'mangoextrabold';
+    font-size: 120px;
+    margin-bottom: 60px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.evolusi-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.evolusi-wrapper .evolusi-img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.evolusi-wrapper .jencke-img {
+    width: 100%;
+    max-width: 105px;
+}
+
+.wrapper-roadmap-content-left,
+.wrapper-roadmap-content-right {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper-roadmap-content-left p {
+    text-align: left;
+}
+
+.wrapper-roadmap-content-right p {
+    text-align: right;
+}
+
+.wrapper-roadmap-content-left p,
+.wrapper-roadmap-content-right p {
+    font-family: 'kumbhreg';
+    font-size: 17px;
+    line-height: 30px;
+    color: #222222;
+    width: 100%;
+}
+
+.wrapper-roadmap-content-left>img {
+    margin-right: 20px;
+    max-width: 75px;
+}
+
+.wrapper-roadmap-content-right>img {
+    margin-left: 20px;
+    max-width: 75px;
+}
+
+.roadmap-wrapper .row-one h3 {
+    font-family: 'kumbhbold';
+    font-size: 36px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 20px;
+    color: #222222;
+}
+
+.roadmap-wrapper .row-one h3.phase3 {
+    font-family: 'kumbhbold';
+    font-size: 36px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 20px;
+    color: #222222;
+}
+
+.roadmap-wrapper .row-one {
+    margin: 50px 0 auto 0;
+}
+
+.jnckehand-ptrn {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.jnckehandzmbi-ptrn {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.fire-ptrn img {
+    width: 140px;
+}
+
+.wrpr-punch {
+    display: flex;
+    align-items: center;
+}
+
+.wrpr-punch img {
+    width: 75px;
+}
+
+.wrapper-roadmap-content-left.punch-content {
+    display: block;
+}
+
+.punch-content p {
+    margin-bottom: -15px;
+    margin-left: 75px;
+    margin-top: -5px;
+}
+
+.redacted1 {
+    position: absolute;
+    top: -15px;
+    right: 265px;
+}
+
+.redacted1 img {
+    width: 75px;
+}
+
+.redacted2 {
+    position: absolute;
+    bottom: 35px;
+    right: 245px;
+}
+
+
+/* controls */
+
+#prev,
+#next {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 999;
+}
+
+#prev:hover,
+#next:hover {
+    background: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#prev {
+    top: 0;
+    left: 0;
+}
+
+#next {
+    top: 0;
+    left: 50%;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 2s cubic-bezier(0.645, 0.045, 0.355, 1.000) infinite alternate-reverse backwards;
+    animation: scale-up-center 2s cubic-bezier(0.645, 0.045, 0.355, 1.000) infinite alternate-reverse backwards;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.roadmapmobile {
+    display: none;
+}
+
+.roadmapdesktop {
+    display: block;
+}
+
+.click-to-nextpage {
+    position: absolute;
+    top: 20px;
+    right: -95px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+.click-to-backpage {
+    position: absolute;
+    top: 20px;
+    left: 66px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+.click-to-nextpage p {
+    margin: 0;
+    padding: 0 10px;
+    background: #f6972a;
+}
+
+.click-to-backpage p {
+    margin: 0;
+    padding: 0 10px;
+    background: #f6972a;
+}
+
+.wrpr-footer-img:hover img {
+    filter: drop-shadow(0px 0px 3px #1d9bf0);
+}
+
+.d-none-desktop {
+    display: none;
+}
+
+.d-none-mobile {
+    display: block;
+}
+
+.disabled {
+    position: relative;
+    cursor: not-allowed;
+    color: #c4c4c4!important;
+}
+
+.badge {
+    font-size: 10px;
+    position: absolute;
+    top: -17px;
+    right: -35px;
+    background: #3a1909;
+    border-radius: 7px;
+    padding: 0px 7px;
+}
+
+@media (max-width: 500px) {
+    .jencke-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -180px 0px 8px 0px;
+    }
+    .jencke-wrpr-welcome {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        /* margin: 10px 0 0 70px; */
+    }
+    .jencke-basketball img,
+    .jencke-skate img,
+    .jencke-shorts img,
+    .jencke-foot img {
+        max-width: 140px;
+    }
+    .jencke-wrpr-welcome {
+        margin: 0px 0px;
+    }
+    .jencke-bg-landing {
+        background-repeat: repeat;
+        height: 95vh;
+        padding-bottom: 50px;
+    }
+    .jencke-bg {
+        height: 100%;
+    }
+    .jencke-bg .jencke-wrpr-bg {
+        position: relative;
+        height: 100%;
+        padding-bottom: 100px;
+        left: 0;
+        transform: translateX(0);
+    }
+    .content-wrapper {
+        padding: 150px 20px 0;
+        margin: 0px;
+    }
+    .content-wrapper h2 {
+        margin: 0px;
+    }
+    .jnckehandzmbi-ptrn img {
+        width: 85px;
+    }
+    .fire-ptrn {
+        top: 135px;
+        left: 200px;
+    }
+    .fire-ptrn img {
+        width: 85px;
+    }
+    .roadmapmobile {
+        display: block;
+    }
+    .roadmapdesktop {
+        display: none;
+    }
+    /*roadmap*/
+    .roadmap-wrapper {
+        display: block;
+        padding: 25px 0 10px;
+        margin: auto;
+        width: 90%;
+        height: 100%!important;
+    }
+    .shape-ptrn {
+        top: 100px;
+    }
+    .shape-ptrn img {
+        width: 100%;
+    }
+    .roadmap-inner h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .evolusi-wrapper {
+        display: none;
+    }
+    .roadmap-wrapper .row-one h3 {
+        font-size: 20px;
+    }
+    .wrapper-roadmap-content-left p,
+    .wrapper-roadmap-content-right p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+    }
+    .punch-content p {
+        margin-left: 100px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .redacted1 {
+        position: absolute;
+        top: -20px;
+        right: 50px;
+    }
+    .redacted2 {
+        position: absolute;
+        bottom: 30px;
+        right: 60px;
+    }
+    .wrpr-punch p {
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+    .wrapper-roadmap-content-right>img,
+    .wrapper-roadmap-content-left>img {
+        max-width: 100px;
+    }
+    .roadmap-wrapper .row-one h3.phase3 {
+        font-size: 20px;
+    }
+    .wrapper-roadmap-content-left,
+    .wrapper-roadmap-content-right {
+        margin-bottom: 50px;
+    }
+    .wrapper-roadmap-content-left::after {
+        content: '';
+        background-image: url(https://tournament-ggwp.s3.ap-southeast-1.amazonaws.com/Mint/new/icons/roadmap2.png);
+        background-size: 55%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -60px;
+    }
+    .wrapper-roadmap-content-left:last-child::after,
+    .wrapper-roadmap-content-right:last-child::after {
+        display: none;
+    }
+    .wrapper-roadmap-content-right::after {
+        content: '';
+        background-image: url(https://tournament-ggwp.s3.ap-southeast-1.amazonaws.com/Mint/new/icons/roadmap1.png);
+        background-size: 55%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -60px;
+    }
+    .content-wrapper p {
+        font-size: 15px;
+    }
+    /*theteam*/
+    .wrpr-theteam {
+        padding: 0 20px;
+        display: block;
+        margin: 0;
+    }
+    .team-wrapper {
+        padding: 50px 50px 0;
+        margin-top: 0px;
+    }
+    .team-wrapper h2 {
+        font-size: 40px;
+    }
+    .wrpr-theteam .col-md-4 {
+        width: 100%;
+    }
+    .wrpr-theteam .col-md-4 img {
+        width: 100%;
+    }
+    .team-wrapper h2 {
+        margin-bottom: 40px;
+    }
+    .jencke-container {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .roadmap-wrapper .row-one {
+        margin: 0;
+    }
+    .d-none-desktop {
+        display: block;
+    }
+    .d-none-mobile {
+        display: none;
+    }
+}
